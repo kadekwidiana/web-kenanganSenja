@@ -1,6 +1,6 @@
 :root{
-    --primary: #b6895b;
-    --bg: #010101;
+    --primary: #fa1919;
+    --bg: #280303;
 }
 
 *{
@@ -28,7 +28,7 @@ body{
     align-items: center;
     padding: 1.4rem 7% ;
     background-color: rgba(1, 1, 1, 0.8);
-    border-bottom: 1px solid #513c28;
+    border-bottom: 1px solid #280303;
     position: fixed;
     top: 0;
     left: 0;
@@ -52,6 +52,7 @@ body{
     color: #ffff;
     display: inline-block;
     font-size: 1.3rem;
+    font-weight: bold;
     margin: 0 1rem;
 }
 
@@ -90,7 +91,7 @@ body{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url('/img/senja.jpg');
+    background-image: url('/img/geprek.avif');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -224,7 +225,7 @@ body{
 
 .menu .row .menu-card img {
     border-radius: 50%;
-    width: 80%;
+    width: 60%;
 }
 
 .menu .row .menu-card .menu-card-title {
